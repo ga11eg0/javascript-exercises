@@ -21,7 +21,7 @@ const power = function(base,expo) {
 };
 
 const factorial = function(number) {
-	facto = 1;
+	let facto = 1;
   for (i = 1; i <= number;i++){
     facto *= i;
   };
